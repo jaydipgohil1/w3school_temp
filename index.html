@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>w3school templete</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled JavaScript -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/stylesheet1.css">
+</head>
+
+<body id="logo">
+
+
+    <!-- start nav bar  -->
+
+    <ul>
+        <li><a href="#logo" class="active"><i class="fa fa-home " style="font-size:20px;margin: 0px 5px;"></i>Loho </a>
+        </li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#ourwork">Work</a></li>
+        <li><a href="#price">Price</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Dropdown<i class="fa fa-caret-down"></i></a>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </li>
+
+        <li style="float:right"><a href="#about"><i class="fa fa-search" style="font-size:20px;"></i></a></li>
+
+    </ul>
+    <!-- end nav bar  -->
+
+    <!-- start sidebar on click -->
+    <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2;"
+        id="mysidebar">
+        <a href="javascript:void(0)" onclick="side_close()"
+            class="w3-bar-item w3-button w3-display-topright w3-text-teal" style="color: #009688;">Close
+            <i class="fa fa-remove"></i>
+        </a><br>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a><br>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a><br>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a><br>
+        <a href="#" class="w3-bar-item w3-button">Link 4</a><br>
+        <a href="#" class="w3-bar-item w3-button">Link 5</a>
+    </nav>
+    <!-- end sidebar on click -->
+
+    <!-- start image header -->
+
+    <div class="sailboat_sub">
+        <img src="image/sailboat.jpg" alt="boat" style="width:100%;min-height:660px;max-height:600px;">
+        <button class="btn">LEARN W3.CSS</button>
+    </div>
+
+    <!-- end image header -->
+
+
+    <!-- start OUR TEAM -->
+    <div class="row bg-light" id="team" style="margin-top:50px">
+        <div class="col d-flex justify-content-center">
+            <h2>OUR TEAM</h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p>Meet the team - our office rats:</p>
+        </div>
+        <div class="col-sm-3 col-md-3">
+            <div class="d-flex justify-content-center ">
+                <div class="d-flex justify-content-center " style="flex-direction:column;">
+                    <div class="t_card">
+                        <img src="image/avatar.jpg" alt="Boss" class="pic_card ">
+                        <h3>Johnny Walker</h3>
+                        <p>Web Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3">
+            <div class="d-flex justify-content-center ">
+                <div class="d-flex justify-content-center " style="flex-direction:column;">
+                    <div class="t_card">
+                        <img src="image/avatar.jpg" alt="Boss" class="pic_card ">
+                        <h3>Rebecca Flex</h3>
+                        <p>Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3">
+            <div class="d-flex justify-content-center ">
+                <div class="d-flex justify-content-center " style="flex-direction:column;">
+                    <div class="t_card">
+                        <img src="image/avatar.jpg" alt="Boss" class="pic_card ">
+                        <h3>Jan Ringo</h3>
+                        <p>Boss man</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3">
+            <div class="d-flex justify-content-center ">
+                <div class="d-flex justify-content-center " style="flex-direction:column;">
+                    <div class="t_card">
+                        <img src="image/avatar.jpg" alt="Boss" class="pic_card ">
+                        <h3>Kai Ringo</h3>
+                        <p>Fixer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- end OUR TEAM -->
+
+    <!-- start Our Work -->
+
+    <div class="row our_work_row " id="ourwork">
+        <div class="col-sm-3 ">
+            <h2>Our Work</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="col-sm-3">
+            <div class="card card_1 text-dark rounded-0" style="">
+                <img src="image/snow.jpg" class="card-img-top rounded-0" alt="snow">
+                <div class="card-body">
+                    <h3 class="card-text">Customer 1</h3>
+                    <h4>Trade</h4>
+                    <p>Blablabla</p>
+                    <p>Blablabla</p>
+                    <p>Blablabla</p>
+                    <p>Blablabla</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card card_1 text-dark rounded-0">
+                <img src="image/lights.jpg" class="card-img-top rounded-0" alt="lights">
+                <div class="card-body">
+                    <h3 class="card-text">Customer 2</h3>
+                    <h4 style="font-weight: 400;">Trade</h4>
+                    <p>Blablabla</p>
+                    <p>Blablabla</p>
+                    <p>Blablabla</p>
+                    <p>Blablabla</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card card_1 text-dark rounded-0" style="">
+                <img src="image/mountains.jpg" class="card-img-top rounded-0" alt="mountains">
+                <div class="card-body">
+
+                    <h3 class="card-text">Customer 3</h3>
+                    <h4 style="font-weight: 400;">Trade</h4>
+                    <p>Blablabla</p>
+                    <p>Blablabla</p>
+                    <p>Blablabla</p>
+                    <p>Blablabla</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end Our Work -->
+
+    <!-- start "+ button" -->
+    <div class="w3-container" style="position:relative">
+        <a onclick="slider_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+            style="position:absolute;top:-28px;right:24px;">+</a>
+    </div>
+    <!-- end "+ button" -->
+
+    <!--start PRICING -->
+    <div class="row d-flex justify-content-center" id="price" style="margin-top:50px;">
+        <div class="col d-flex justify-content-center">
+            <h2>PRICING</h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p>Choose a pricing plan that fits your needs.</p>
+        </div>
+        <div class="col-sm-4 justify-content-center" style="margin: 0px 0px 16px 0px;">
+            <div class="card card_1 text-dark rounded-0 price_shadow">
+                <div class=" w3-xlarge price_box d-flex justify-content-center align-items-center">Basic</div>
+                <div style="text-align:center;">
+                    <p class="p_boder_bottom"><b>10GB</b> Storage</p>
+                    <p class="p_boder_bottom"><b>10</b> Emails</p>
+                    <p class="p_boder_bottom"><b>10</b> Domains</p>
+                    <p class="p_boder_bottom"><b>Endless</b> Support</p>
+                    <p class="p_boder_bottom"><b><bdi>$&nbsp; </b> </bdi><bdi>10 </bdi> <br>per month</p>
+                    <div class="price_button">
+                        <button class="w3-button w3-teal  border-0"><i class="fa fa-check"></i> Sign
+                            Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4  ">
+            <div class="card card_1 text-dark rounded-0  price_shadow">
+                <div class=" w3-xlarge price_box d-flex justify-content-center align-items-center"
+                    style=" background-color: #666666 !important;  ">Pro</div>
+                <div style="text-align:center;">
+                    <p class="p_boder_bottom"><b>25GB</b> Storage</p>
+                    <p class="p_boder_bottom"><b>25</b> Emails</p>
+                    <p class="p_boder_bottom"><b>25</b> Domains</p>
+                    <p class="p_boder_bottom"><b>Endless</b> Support</p>
+                    <p class="p_boder_bottom"><b><bdi>$&nbsp; </b> </bdi><bdi>25 </bdi> <br>per month</p>
+                    <div class="price_button">
+                        <button class="w3-button w3-teal  border-0"><i class="fa fa-check"></i> Sign
+                            Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4  ">
+            <div class="card card_1 text-dark rounded-0  price_shadow">
+                <div class=" w3-xlarge price_box d-flex justify-content-center align-items-center">Premium</div>
+                <div style="text-align:center;">
+                    <p class="p_boder_bottom"><b>50GB</b> Storage</p>
+                    <p class="p_boder_bottom"><b>50</b> Emails</p>
+                    <p class="p_boder_bottom"><b>50</b> Domains</p>
+                    <p class="p_boder_bottom"><b>Endless</b> Support</p>
+                    <p class="p_boder_bottom"><b><bdi>$&nbsp; </b> </bdi><bdi>50</bdi> <br>per month</p>
+                    <div class="price_button">
+                        <button class="w3-button w3-teal  border-0"><i class="fa fa-check"></i> Sign
+                            Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!--end PRICING -->
+
+    <!--start Contact Us -->
+
+    <div class="row w-100" id="contact">
+        <div class="col-sm-6">
+            <span class="w3-bottombar"> Contact Us</span>
+            <h3 style="padding:16px 0px">Address</h3>
+            <p>Swing by for a cup of coffee, or whatever.</p>
+            <p><i class="fa fa-map-marker  w3-xlarge i_color"></i>&nbsp;&nbsp;Chicago, US</p>
+            <p><i class="fa fa-phone  w3-xlarge i_color"></i>&nbsp;&nbsp;+00 1515151515</p>
+            <p><i class="fa fa-envelope-o  w3-xlarge i_color"></i>&nbsp;&nbsp;test@test.com</p>
+        </div>
+        <div class="col-sm-6 ">
+            <form class="shadow" action="/action_page.php" target="_blank">
+                <div class="form_pading">
+                    <label>Name</label>
+                    <input class="input_box" type="text" name="Name" required="">
+                </div>
+                <div class="form_pading">
+                    <label>Email</label>
+                    <input class="input_box" type="text" name="Email" required="">
+                </div>
+                <div class="form_pading">
+                    <label>Message</label>
+                    <input class="input_box" type="text" name="Message" required="">
+                </div>
+                <input class="check" type="checkbox" checked="" name="Like">
+                <label>I Like it!</label>
+                <button type="submit" class="w3-button form_button right float-end">Send</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!--end Contact Us -->
+
+
+    <!-- start map image -->
+    <img src="image/map.jpg" alt="map" style="width:100%;">
+    <!-- end map image -->
+
+    <!-- start footer here -->
+    <div class="row footer" style="height:262px; text-align:center">
+        <div class="col-12  align-items-center justify-content-center" style="padding:32px 16px">
+            <h4>Follow Us</h4>
+            <br>
+            <a class="w3-button  w3-teal" href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+            <a class="w3-button  w3-teal" href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+            <a class="w3-button  w3-teal" href="#" title="Google"><i class="fa fa-google-plus"></i></a>
+            <a class="w3-button  w3-teal" href="#" title="instagram"><i class="fa fa-instagram"></i></a>
+            <a class="w3-button  w3-teal" href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+            <span class="w3-text  w3-teal d-none go_to">Go To Top</span> 
+            <a class="w3-button float-end w3-theme" href="#"><span class="w3-xlarge top" >
+                <i style="color:white" class="fa fa-chevron-circle-up "></i></span></a>
+            <p>Powered by <a href="#" style="text-decoration:underline;color:white" target="_blank">Jaydip Gohil</a></p>
+           
+
+        </div>
+    </div>
+    <!-- end footer here -->
+
+
+    <!-- javascript -->
+    <script>
+        // Script for side navigation
+        function slider_open() {
+            var x = document.getElementById("mysidebar");
+            x.style.width = "300px";
+            x.style.paddingTop = "10%";
+            x.style.display = "block";
+        }
+
+        // Close side navigation
+        function side_close() {
+            document.getElementById("mysidebar").style.display = "none";
+        }
+
+    </script>
+</body>
+
+</html>

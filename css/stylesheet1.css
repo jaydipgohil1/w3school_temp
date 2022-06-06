@@ -1,0 +1,440 @@
+body {
+    overflow-x: hidden;
+    
+}
+.row{
+    overflow-x: hidden;
+    font-family: Verdana,sans-serif;
+}
+
+
+/*start menu  bar  */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    font-family: Verdana,sans-serif;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active),
+ul li a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+
+
+
+.active {
+    color: #fff;
+    background-color: #009688;
+
+}
+
+#logo svg {
+    padding: 5px;
+
+}
+
+/* drop down  */
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  } */
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover,
+.active:hover .dropbtn .active {
+    background-color: lightgray;
+    color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;  
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 40px;
+    bottom: auto;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    z-index: 1;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*end menu  bar  */
+/* start sailboat image */
+.sailboat {
+    /* width: 100%; */
+    min-height: 452px;
+    max-height: 600px;
+    height: 350px;
+
+
+}
+
+.sailboat_sub {
+    text-align: left;
+}
+
+/*  
+.btn2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+} */
+
+@media only screen and (min-width: 1280px) {
+    .sailboat_sub .btn {
+
+        position: absolute;
+        top: 609px;
+        left: 85px;
+        bottom: 100px;
+        RIGHT: auto;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        color: white;
+        font-size: 16px;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        object-fit: cover;
+    }
+
+}
+
+
+.sailboat_sub .btn {
+
+    position: absolute;
+    top: 600px;
+    left: 85px;
+    bottom: 100px;
+    RIGHT: auto;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    width: 151px;
+    text-align: center;
+    object-fit: cover;
+}
+
+.btn {
+    color: #fff;
+    background-color: black;
+    height: 50px;
+    font-size: x-large;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.sailboat_sub .btn:hover {
+    color: #fff;
+    background-color: #009688;
+}
+
+/* start sailboat image */
+/* start our team */
+.pic_card {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+
+.t_card {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 15px;
+}
+
+/* end our team */
+
+/* start Our Work */
+#contact,
+.our_work_row {
+    padding: 68px 8px !important;
+    margin: 0px 0px;
+}
+.our_work_row {
+
+    background-color: #333333;
+    color: #fff;
+}
+
+.our_work_row h2,
+h3,
+h4 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.our_work_row h2 {
+
+    margin: 10px 0;
+    font-size: 30px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.our_work_row p {
+    /* margin-block-start: 1em;
+    margin-block-end: 1em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.our_work_row .card_1 {
+    /* width: 18rem;
+    box-sizing: inherit; */
+    width: 100%;
+    border: 0px;
+    
+}
+
+.w3-button {
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.w3-xlarge {
+    font-size: 24px;
+}
+
+.w3-circle {
+    border-radius: 50%
+}
+
+.w3-teal {
+    color: #fff;
+    background-color: #009688;
+}
+
+.top{
+  
+    padding: 8px 16px;
+    color:black;
+    background-color: inherit;
+    text-align: center;
+   
+}
+ .top:hover .go_top{
+    display: block;
+    position: relative;
+}
+
+.w3-teal:hover,.top:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+
+w3-white,
+.w3-hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.w3-xxlarge {
+    font-size: 36px !important;
+}
+
+.w3-animate-left {
+    /* position: relative; */
+    animation: animateleft 0.4s;
+}
+
+.w3-card,
+.w3-card-2 {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.w3-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+    animation: animateleft 0.4s;
+}
+
+#mysidebar {
+    padding-top: 1% !important;
+}
+
+#mysidebar a {
+    width: 300px;
+    text-align: left;
+}
+
+#mysidebar .w3-button:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+/* end Our Work */
+
+/* start price */
+.price_box {
+    color: #fff !important;
+    background-color: #000000 !important;
+    width: 100%;
+    height: 101px;
+    font-weight: bold;
+}
+
+.p_boder_bottom {
+    border-bottom: 1px solid rgb(207, 207, 207);
+    border-width: 100%;
+    padding: 16px;
+    margin-bottom: 0px;
+}
+
+.price_button {
+    padding: 24px 16px;
+    background-color: #f0f0f0 !important;
+}
+
+.price_shadow:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+.card_1 bdi{
+    font-size: xx-large;
+}
+
+
+/* end price */
+
+
+/* start Contact Us */
+.w3-bottombar
+{
+    border-bottom: 6px solid #009688!important;
+    font-size: 24px;
+    
+}
+.i_color
+{
+    color:#009688;
+}
+.form_pading
+{
+    margin: 16px 0px;
+}
+form{
+   padding: 16px;
+}
+.input_box{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.check
+{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+}
+.form_button{
+    
+    color:white ;
+    background-color: black;
+    border: none;
+    position: relative;
+    bottom: 8px;
+   
+}
+.form_button:hover{
+    
+    background-color: lightgray;
+    color: black;
+}
+
+/* end Contact Us */
+/* start footer here  */
+.footer
+{
+    color: white;
+    background-color: black;
+}
+/* end footer here  */
